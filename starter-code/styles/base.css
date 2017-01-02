@@ -1,7 +1,12 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
+/* Done: Add a rule for images, so they never exceed their container's width. */
+@media screen and (max-width:640px) {
 
-
-
+img {
+  max-width: 95%;
+  height: auto;
+  }
+  display: none;
+}
 body {
   line-height: 1.5;
   font-size: 100%;
